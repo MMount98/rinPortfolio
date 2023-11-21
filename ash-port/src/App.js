@@ -1,15 +1,21 @@
-import { BrowserRouter as Router } from 'react-router-dom';
-import NavBar from "./componeents/Navbar"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import NavBar from "./componeents/Navbar";
+import Home from "./componeents/Pages/Home"
+import WritingPortfolio from "./componeents/Pages/writingPortfolio"
 
-import logo from './logo.svg';
-import './App.css';
+
+import "./App.css";
 
 function App() {
   return (
     <>
-    <Router>
-      <NavBar />
-    </Router>
+      <Router>
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/writing-portfolio" element={<WritingPortfolio />} />
+        </Routes>
+      </Router>
     </>
   );
 }

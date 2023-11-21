@@ -2,7 +2,14 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "home-page": "url('/src/componeents/Images/homepagePhoto.jpg')",
+      },
+      fontFamily: {
+        tinos: ['"Tinos"', "sans-serif"],
+      },
+    },
   },
   plugins: [],
-}
+};
