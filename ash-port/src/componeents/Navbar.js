@@ -24,7 +24,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="w-full">
-              <Link to="/" className="text-white font-tinos block px-4 py-2 hover:shadow-sm hover:shadow-white">
+              <Link to="/about" className="text-white font-tinos block px-4 py-2 hover:shadow-sm hover:shadow-white">
                 About
               </Link>
             </li>
@@ -34,7 +34,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="w-full">
-              <Link to="/" className="text-white font-tinos block px-4 py-2 hover:shadow-sm hover:shadow-white">
+              <Link to="/contact" className="text-white font-tinos block px-4 py-2 hover:shadow-sm hover:shadow-white">
                 Contact
               </Link>
             </li>
