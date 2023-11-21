@@ -38,7 +38,7 @@ const writingData = [
 
 const WritingPortfolio = () => {
   return (
-    <div className="flex justify-center items-center min-h-screen">
+    <div className="flex justify-center items-center min-h-screen my-24">
       <div className="grid grid-cols-2  items-center gap-4">
         {writingData.map((cardData) => (
           <Card
